@@ -2,6 +2,8 @@ import React from "react";
 import { Button, Card } from "semantic-ui-react";
 import moment from "moment";
 import "./App.css";
+import "semantic-ui-css/semantic.min.css";
+
 const refresh = () => {
   window.location.reload();
 };
