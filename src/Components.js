@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card } from "semantic-ui-react";
 import moment from "moment";
 import "./App.css";
-
+import LikeButton from "./LikeButton";
 
 const refresh = () => {
   window.location.reload();
@@ -67,7 +67,7 @@ function Component({ weatherData }) {
         <p className="day">
           {moment().format("dddd")} {moment().format("LLL")}
         </p>
-        <Button content="Like" icon={{ color: "red", name: "like" }}></Button>
+        <LikeButton />
       </Card.Content>
     </div>
   );
