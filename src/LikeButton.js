@@ -13,7 +13,7 @@ function LikeButton() {
       {" "}
       <Button
         onClick={() => setCount((c) => c + 1)}
-        content={count - 2}
+        content={count - 1}
         icon={{ color: "red", name: "like" }}
       ></Button>
     </>
